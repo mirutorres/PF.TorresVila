@@ -1,0 +1,37 @@
+.gridIndex { background-color: #faecd2;
+    display:grid; grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+header {display: flex; background-color: #bd9973; justify-content: space-between; flex-wrap: wrap;}
+.logo {background-color: #bd9973;}
+.imglog {    height: 100px;
+    width: 110px;}
+main {
+.imgEncabezado {text-align: center; margin: 35px;}
+.bienvenida {font-family: 'Nunito Sans', sans-serif; text-align: center; padding: 4px;}
+.parrafoDer {grid-area: parrafoDer;}
+.tortis {width: 600px;
+    height: 400px;
+    display: block;
+    margin: auto;}
+.instagram {font-size: 60px; font-family:'Nunito Sans', sans-serif ; text-align: center; color: #bd9973; }
+.imagenesloc {display: flex;
+    justify-content: center;
+    height: 60px;
+margin: 40px;}
+}
+footer { background-color: #bd9973;
+    display: grid;
+    grid-template-areas: "logo rs contacto" "copy copy copy";
+    grid-template-columns: repeat(3,1fr);
+grid-template-rows: auto auto;
+.logo {background-color: #bd9973;}
+.imglog {    height: 100px;
+    width: 110px;}
+.rs{grid-area: rs; }
+.ssmm {color: black;
+    margin: 5px;
+}
+.contacto {grid-area: contacto;}
+}
+
