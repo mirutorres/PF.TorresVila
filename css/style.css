@@ -96,4 +96,20 @@ ul li a:hover {
   color: brown;
 }
 
+@media screen and (max-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
+  ul a {
+    font-size: 15px;
+  }
+  ul li {
+    display: inline;
+    margin: 3px;
+    padding: 3px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
